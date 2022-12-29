@@ -24,6 +24,11 @@ section {
   margin: 0 auto;
   padding: 100px 0;
 }
+section .primary {
+}
+.secondary {
+  background-color: red;
+}
 
 header {
   background-image: linear-gradient(
