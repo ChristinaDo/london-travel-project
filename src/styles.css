@@ -68,7 +68,9 @@ section {
 .text-center {
   text-align: center;
 }
-
+.photos {
+  margin: 30px 0 0 0;
+}
 header {
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.6),
