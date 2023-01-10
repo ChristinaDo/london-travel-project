@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-color: #d3d2d0;
 }
 
 .container {
@@ -53,6 +54,12 @@ body {
   color: #ffffff;
   background-color: #c9072a;
   text-decoration: none;
+  transition: all 200ms ease-in-out;
+}
+
+.button:hover {
+  color: #c9072a;
+  background-color: #ffffff;
 }
 
 section {
@@ -120,6 +127,12 @@ header a {
   padding: 16px 32px;
   margin-top: 32px;
   display: inline-block;
+  transition: all 200ms ease-in-out;
+}
+
+header a:hover {
+  color: white;
+  background-color: #272044;
 }
 
 main {
@@ -209,7 +222,7 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 @media (max-width: 960px) {
