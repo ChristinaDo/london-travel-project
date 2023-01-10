@@ -185,7 +185,7 @@ footer {
 footer h3 {
   font-weight: 700;
   font-size: 20px;
-  line-height: 30px;
+  margin: 0;
 }
 
 footer p {
@@ -201,6 +201,7 @@ footer ul {
 
 footer li {
   list-style: none;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
